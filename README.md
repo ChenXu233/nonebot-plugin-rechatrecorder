@@ -43,6 +43,7 @@ def handle(event: GroupMessageEvent):
 ```
 
 我知道用session_ids获取整个群的消息会异常的烦(),所以等我想到更好的解决方案前建议还是这么用着()
+
 如果真的觉得烦可以通过.record.get_group_all_user(gid:int,bot:Bot)直接获得一个QQ群的人的id
 
 详细参数及说明见代码注释
