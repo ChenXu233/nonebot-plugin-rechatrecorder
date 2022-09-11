@@ -6,7 +6,7 @@ from sqlmodel import Field, SQLModel
 class MessageRecord(SQLModel, table=True):
     """消息记录"""
 
-    __tablename__: str = "Rechatrecorder_message_record"
+    __tablename__: str = "rechatrecorder_message_record"
     __table_args__ = {"extend_existing": True}
 
     id: Optional[int] = Field(default=None, primary_key=True)
